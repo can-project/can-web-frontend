@@ -1,0 +1,10 @@
+.content_wrap_develop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+  margin-bottom: 100px;
+  background-color: white;
+  width: 80%;
+  display: inline-block;
+}

@@ -1,3 +1,9 @@
+/* screens */
+@import "screens/content_club.css";
+@import "screens/content_rank.css";
+@import "screens/content_develop.css";
+@import "screens/content_explan.css";
+
 body {
   margin: 0;
 }
@@ -54,8 +60,9 @@ main {
   z-index: -2;
 }
 .content {
-  height: 100vh;
+  height: 500vh;
   width: 100%;
+  text-align: center;
 }
 .content_wrap {
   display: flex;
@@ -63,11 +70,19 @@ main {
   align-items: center;
   margin-top: 50px;
 }
+
 #content_text {
   color: red;
   font-size: 10rem;
   font-weight: bold;
 }
+/* @keyframes fadeSideMenu {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+  }
+} */
 .side_menu {
   display: flex;
   justify-content: center;
@@ -77,6 +92,7 @@ main {
   right: 0;
   top: 86px;
   background-color: rgba(0, 0, 0, 0.8);
+  /* animation: fadeSideMenu 1s ease-in-out forwards; */
 }
 @media screen and (max-width: 1200px) {
   .side_menu {
@@ -105,7 +121,7 @@ main {
   }
 }
 .side_menu li {
-  padding: 40px 15px;
+  padding: 40px 0px;
   border-right: 4px solid gray;
   text-align: center;
   margin: 2px 0;
