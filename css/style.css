@@ -140,3 +140,35 @@ main {
 .side_menu li:last-child {
   border-bottom: none;
 }
+
+
+/* 여기부터 은지 */
+
+#typing ul{
+  color:white;
+  font-size: 1.1em;
+  text-align: center;
+  margin-top:150px;
+}
+#typing ul li.on {  
+display: inline-block; 
+animation-name: cursor; 
+animation-duration: 0.3s; 
+animation-iteration-count: infinite; 
+color:rgb(167, 7, 7);
+font-size: 1.3em;
+} 
+@keyframes cursor{ 
+0%{border-right: 1px solid #fff} 
+50%{border-right: 1px solid #000} 
+100%{border-right: 1px solid #fff} 
+}
+#typing-txt {
+  display: none;
+  color:white;
+}
+#typing-txt ul{
+  list-style:none;
+  color:white;
+}
+

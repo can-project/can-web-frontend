@@ -8,6 +8,8 @@
   width: 80%;
   display: inline-block;
   border-radius: 3%;
+  top:30px;
+  position: relative;
 }
 table {
   border-collapse: collapse;
